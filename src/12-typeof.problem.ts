@@ -1,7 +1,6 @@
 import { expect, it } from "vitest";
 
 // TODO: write body of a function
-
 const coerceAmount = (amount: number | { amount: number }) => {
   if (typeof amount === 'object') {
     return amount.amount;
