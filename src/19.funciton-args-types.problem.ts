@@ -13,7 +13,7 @@ const makeQuery = (
 ) => {};
 
 type MakeQueryParameters = Parameters<typeof makeQuery>;
-type Opts = MakeQueryParameters[1];
+// type Opts = MakeQueryParameters[1]; // WARNING!!!
 
 type tests = [
   Expect<
