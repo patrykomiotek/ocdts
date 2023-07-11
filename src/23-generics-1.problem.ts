@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "./helpers/type-utils";
 
 const returnWhatIPassIn = <T extends string | number>(t: T) => {
   return t;

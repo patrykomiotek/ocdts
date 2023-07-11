@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import { Equal, Expect } from "./helpers/type-utils";
 
 // TODO: fix typings for TestingFramework
 const testingFrameworks = {
